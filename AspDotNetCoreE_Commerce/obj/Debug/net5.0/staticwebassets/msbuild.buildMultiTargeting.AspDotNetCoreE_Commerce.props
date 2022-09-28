@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspDotNetCoreE_Commerce.props" />
+</Project>

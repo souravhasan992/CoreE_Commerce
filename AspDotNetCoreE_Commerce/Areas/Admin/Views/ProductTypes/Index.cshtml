@@ -1,0 +1,17 @@
+﻿@using AspDotNetCoreE_Commerce.Models;
+@model IEnumerable<ProductType>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Product Type List</h2>
+    </div>
+    <div class="col-6 text-right">
+         <a asp-action="Create" class="btn btn-info">&nbsp; New Product Type</a>
+    </div>
+</div>
+<h1>Index</h1>
+
